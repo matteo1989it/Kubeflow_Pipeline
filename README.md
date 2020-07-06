@@ -51,9 +51,6 @@ Create Notebooks instance
 * Change the pipelines host in the notebook to reflect the URL of your KFP installation
 * Run the cells in that notebook to deploy the pipeline manually.
 
-
-# How to carry out CI/CD in Machine Learning ("MLOps") using Kubeflow ML Pipelines (Part 3)
-
 ## 3. CI/CD Production Environment
 
 ### 3a Set up Continous Integration (CI) GitHub triggers

@@ -1,3 +1,7 @@
+## 0. Disclaimer
+
+This repository comes from Google's training project for Data Analysts: http://cloud.google.com/training.  
+
 ## 1. Set up Hosted Kubeflow Pipelines
 
 You will use a Kubernetes cluster to run the ML Pipelines.

@@ -19,8 +19,7 @@ Create Hosted Kubeflow Pipelines Instance
 In CloudShell:
 Run:
 ```
-git clone https://github.com/GoogleCloudPlatform/training-data-analyst
-cd training-data-analyst/courses/machine_learning/deepdive/06_structured/pipelines
+git clone https://github.com/matteo1989it/Kubeflow_Pipeline
 ./setup_auth.sh kfpdemo us-central1-a cluster-1 default
 ```
 * The first parameter is the service account you are using. I'm calling it kfpdemo
@@ -44,10 +43,10 @@ Create Notebooks instance
 * Click on the URL for Open JupyterLab
 * Open a Terminal
 * Type:
-    ```git clone https://github.com/GoogleCloudPlatform/training-data-analyst```
+    ```git clone https://github.com/matteo1989it/Kubeflow_Pipeline```
 
 ### 2b. Navigate to notebook for development workflow
-* On the left-hand side menu, navigate to this notebook (training-data-analyst/courses/machine_learning/deepdive/06_structured/7_pipelines.ipynb)
+* On the left-hand side menu, navigate to this notebook: containers/7_pipelines.ipynb
 * Change the pipelines host in the notebook to reflect the URL of your KFP installation
 * Run the cells in that notebook to deploy the pipeline manually.
 
@@ -64,7 +63,7 @@ Create Notebooks instance
 
 To Verify CI
 * In AI Platform Notebooks, clone your personal GitHub repo
-* cd to this directory
+* cd to 'containers' directory
 * Create Docker containers:  ./build_all.sh
 * Change containers/bqtocsv/transform.py in some way (maybe add a print statement)
 * Do a git commit
